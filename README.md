@@ -1,8 +1,8 @@
-#**School_District_Analysis**
-##**Overview of the analysis**
+# **School_District_Analysis**
+## **Overview of the analysis**
 In this project, we used Python to analyze the datasets of the City School district to evaluate the reliability of the data collected from different schools. Through this project, there were multiple school datasets available which required to be cleaned, sorted and organized in order to provide reliable results. Using Python Pandas and Numpy libraries, we evaluated the data from different aspects. The school board specifically requires the reliability of the Reading and Math scores from one of the schools. Hence, we analyzed data through both including and excluding Thomas High School dataset from the principal datasets.
 
-##**Results**
+## **Results**
 After replacing the Thomas High School Ninth graders by NaN, the statistics of the district summary slightly changed. The images below demonstrate the district summary once with 9th graders and without 9th graders of Thomas High School.
 
 *The initial District Summary:*
@@ -34,5 +34,5 @@ Categorizing the schools based on their type reveals that the *Charter* schools 
 
 ![scores_by_school_type.png](https://github.com/zkt2018/School_District_Analysis/blob/main/Resources/scores_by_school_type.png)
 
-##**Summary**
+## **Summary**
 Replacing the ninth graders, except for the school’s performance among the other schools within the district, does not significantly impact the statistics in Math and Reading scores by grade, school spending, size and type. As the number of students' grades omitted was less than 500 from the total of 39170. Hence, although this number could play a great role in one school’s statistics and move its position to the second top school, overall, it did not result in a great discrepancy on the other statistics of the whole district. Therefore, it is impossible to determine the accuracy of the data provided according to this analysis.
